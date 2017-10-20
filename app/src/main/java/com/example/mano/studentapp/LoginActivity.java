@@ -1,5 +1,5 @@
 package com.example.mano.studentapp;
-// Sample Comment..
+// Sample Comment...
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
