@@ -20,7 +20,8 @@
             android:id="@+id/email_login_form"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:weightSum="1">
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -63,7 +64,8 @@
                 android:layout_marginTop="16dp"
                 android:text="@string/action_sign_in"
                 android:textSize="24sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_weight="0.78" />
 
         </LinearLayout>
     </ScrollView>
